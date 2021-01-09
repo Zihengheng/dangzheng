@@ -1,0 +1,242 @@
+/*通用结构部分*/
+div.content-contaienr{
+	width:1600px;
+	margin:0 auto;
+}
+.header{
+	min-width:1600px;
+}
+.banner{
+	height:133px;
+}
+.navbar-nav li{
+	list-style-type:none;
+}
+.menu{
+	width:100%;
+}
+.section{
+	min-width:1600px;
+}
+.section-title{
+	width: 262px;
+	height: 34px;
+	font-family: DFHeiW12-GB;
+	font-size: 36px;
+	font-weight: bold;
+	font-stretch: normal;
+	line-height: 33px;
+	letter-spacing: 2px;
+	margin:0 auto;
+	text-align: center;
+}
+table.list-content{
+	width:100%;
+}
+td.list{
+	float:left;
+	overflow:hidden;
+}
+td.date{
+	width:90px;
+	float:right;
+}
+/*通用结构部分 end */
+/*======================= 习近平思想学习 ========================*/
+/*=== header start ===*/
+.banner-learning{
+	background: url("../images/bg-banner1.jpg");
+	background-position: center;
+}
+.menu-learning{
+	height: 60px;
+	background-image: linear-gradient(
+		#fe751a, 
+		#fe751a), 
+	linear-gradient(
+		#001c58, 
+		#001c58);
+	background-blend-mode: normal, 
+		normal;
+}
+ul.learning-nav{
+	width:100%;
+	padding-top: 27px;
+}
+ul.learning-nav li{
+	width:25%;
+	text-align: center;
+	height:33px;
+}
+ul.learning-nav li a{
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	line-height:26px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	text-decoration: none;
+}
+ul.learning-nav li:hover{
+	background: url("../images/up-icon.png") no-repeat bottom;
+}
+ul.learning-nav li.active{
+	background: url("../images/up-icon.png") no-repeat bottom;
+}
+ul.learning-nav li:hover a, ul.learning-nav li.active a{
+	color:#ffe508;
+}
+div.search-section{
+	width:100%;
+	height:170px;
+	background-image: linear-gradient(
+		#f5f5f6, 
+		#f5f5f6), 
+	linear-gradient(
+		#960002, 
+		#960002);
+	background-blend-mode: normal, 
+		normal;
+	padding-top:30px;
+}
+div.search-bar{
+	margin: 0 auto;
+	width: 1600px;
+	height: 110px;
+	background-image: linear-gradient(
+		#f0f0f1, 
+		#f0f0f1), 
+	linear-gradient(
+		#ffffff, 
+		#ffffff);
+	background-blend-mode: normal, 
+		normal;
+	border: solid 1px #e5e8eb;
+}
+form.input-form{
+	padding-top: 37px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.input-group{
+	width:100%;
+}
+div.input-box{
+	width:1300px;
+	height:40px;
+	background-color: #ffffff;
+	border: solid 1px #e7e7e8;
+	float:left;
+}
+.input{
+	float:left;
+	border:0;
+}
+#topic{
+	float:left;
+	border:0;
+	width:220px;
+	height:37px;
+	background-color: #fff;
+}
+#topic .caret{
+	margin-left:15px;
+}
+#search{
+	float:left;
+	width: 73px;
+	height: 41px;
+	background-image: linear-gradient(
+		#fe751a, 
+		#fe751a), 
+	linear-gradient(
+		#1c1e39, 
+		#1c1e39);
+	background-blend-mode: normal, 
+		normal;
+	color:white;
+}
+/*=== header end ===*/
+/*========= 重要讲话 section =========*/
+.section-speach{
+	padding-top: 55px;
+	height:580px;
+}
+.speach-title{
+	color:#fe751a;
+}
+.speach-content{
+	height: 352px;
+	margin-top: 80px;
+	width:1596px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul#speach-nav-tabs li{
+	width: 79px;
+	height: 38px;
+	background-color: #ffffff;
+	border: solid 1px #e2e2e2;
+	margin-right: 21px;
+	padding:0px;
+	text-align: center;
+	cursor: pointer;
+}
+#speach-nav-tabs li a{
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #333333;
+	text-decoration: none;
+}
+ul#speach-nav-tabs li.active{
+	background-color: #fe751a;	
+}
+ul#speach-nav-tabs li:hover{
+	background-color: #fe751a;
+}
+ul#speach-nav-tabs li.active a{
+	color:white;
+}
+ul#speach-nav-tabs li:hover a{
+	color:white;
+}
+div.speach-nav{
+	height:38px;
+}
+#speach-tab-content{
+	padding-left: 40px;
+	padding-top: 50px;
+	height:315px;
+}
+div.ecnomic-pic{
+	float:left;
+	width: 243px;
+	height: 261px;
+	margin-right: 31px;
+	background: url("../images/xidada.png") no-repeat center;
+}
+div.speach-list-box{
+	width:600px;
+	float:left;
+	padding-top: 22px;
+	margin-right: 40px;
+}
+div.speach-list-box td.list{
+	width:488px;
+}
+div.speach-list-box td.list a, div.speach-list-box td.date {
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #333333;
+}
+/*========= 重要讲话 section end =========*/
+
+/*========= 治国理政活动 section =========*/
+div.section-manage{
+	background: url("../images/");
+}
+/*========= 治国理政活动 section end =========*/
+/*======================= 习近平思想学习 end ========================
