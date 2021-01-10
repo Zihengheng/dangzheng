@@ -1,4 +1,4 @@
-/*改变搜索框选中样式*/
+改变搜索框选中样式*/
 input:focus,textarea:focus {
     outline: none;
     border: 0;
@@ -75,8 +75,7 @@ td.date{
 /*======================= 习近平思想学习 ========================*/
 /*=== header start ===*/
 .banner-learning{
-	background: url("../images/bg-banner1.jpg");
-	background-position: center;
+	background: url("../images/bg-banner1.jpg") no-repeat center;
 }
 .menu-learning{
 	height: 60px;
@@ -438,4 +437,219 @@ div.interpretation-nav{
 }
 /*========= 思想解读 section end  =========*/
 /*======================= 习近平思想学习 end ========================*/
-/*======================= 习近平思想学习 start ========================*/
+
+/*==================== 不忘初心牢记使命 start =====================*/
+/*=== header start ===*/
+.banner-vision{
+	background: url("../images/bg-banner3.jpg") no-repeat center;
+}
+.menu-vision{
+	background-color:#c00707;
+	height:45px;
+}
+.menu-vision .content-container{
+	height:45px;
+}
+ul.vision-nav{
+	width:100%;
+	padding-inline-start:0px;
+}
+ul.vision-nav li{
+	width:25%;
+	text-align: center;
+	line-height:45px;
+}
+ul.vision-nav li a{
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	text-decoration: none;
+}
+ul.vision-nav li:hover, ul.vision-nav li.active{
+	background:url("../images/up-icon.png") no-repeat bottom;
+}
+ul.vision-nav li:hover a,ul.vision-nav li.active a{
+	color: #f5c212;
+}
+/*=== header end ===*/
+/*=== news section start ===*/
+.section-news{
+	padding-top: 65px;
+	height:580px;
+	padding-bottom: 85px;
+}
+.section-news .content-container{
+	height:400px;
+}
+.news-title{
+	color:#c00707;
+}
+.news-box{
+	width:713px;
+	float:left;
+	padding-top: 87px;
+}
+.news-box.left-box{
+	margin-right: 174px;
+}
+.news-subtitle{
+	width: 118px;
+	height: 38px;
+	background-color: #c00707;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 38px;
+	margin-bottom: 52px;
+}
+.news-box-list, .news-box-list a{
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #00173e;
+}
+/*=== news section end ===*/
+/*=== edu section start ===*/
+.section-edu{
+	padding-top:154px;
+	background: url("../images/bg-section.png") no-repeat center top;
+	height:700px;
+	margin-top: -50px;
+	background-color: #f9fafc;
+}
+.edu-title{
+	color:#fff;
+}
+.edu-content{
+	margin-top: 70px;
+	padding:40px 40px 40px 40px;
+	width: 1600px;
+	height: 380px;
+	background-image: linear-gradient(
+		#f9fafc, 
+		#f9fafc), 
+	linear-gradient(
+		#960002, 
+		#960002);
+	background-blend-mode: normal, 
+		normal;
+	box-shadow:3px 6px 7px 5px 
+		rgba(154, 152, 152, 0.4);
+	border: solid 1px #e5e8eb;
+}
+ul#edu-nav-tabs{
+	padding-inline-start:0px;
+	width:100%;
+}
+ul#edu-nav-tabs li{
+	height: 38px;
+	background-color: #ffffff;
+	border: solid 1px #e2e2e2;
+	padding-left: 9px;
+	padding-right: 9px;
+	margin-right: 70px;
+	text-align: center;
+}
+ul#edu-nav-tabs li a{
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #666666;
+	text-decoration: none;
+}
+ul#edu-nav-tabs li:hover, ul#edu-nav-tabs li.active{
+	background-color: #c00707;
+}
+ul#edu-nav-tabs li:hover a, ul#edu-nav-tabs li.active a{
+	color:#fff;
+}
+.edu-list-box{
+	width:726px;
+	float:left;
+	padding-top: 62px;
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #00173e;
+}
+.edu-list-box a{
+	color: #00173e;
+}
+.edu-list-box.left-box{
+	margin-right: 55px;
+}
+/*=== edu section end ===*/
+/*=== discussion section start ===*/
+.section-discussion{
+	padding-top: 80px;
+	height:600px;
+}
+.discussion-title{
+	color:#c00707;
+}
+.discussion-img{
+	float:left;
+	width:380px;
+	height:380px;
+	background:url("../images/section-intro.png") no-repeat center;
+	margin-top:62px;
+}
+div.discussion-content{
+	width:1170px;
+	float:left;
+	margin-left:38px;
+	padding-top:119px;
+}
+div.discussion-subtitle{
+	margin-bottom: 42px;
+	width: 118px;
+	height: 38px;
+	background-color: #c00707;
+	color:#fff;
+	text-align: center;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 38px;
+	letter-spacing: 1px;
+}
+div.discussion-list-box{
+	width:562px;
+	float:left;
+	height: 182px;
+	line-height: 33px;
+}
+div.discussion-list-box a, div.discussion-list-box{
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color:#00173e;
+}
+div.discussion-list-box.left-box{
+	margin-right: 44px;
+}
+/*=== discussion section end ===*/
+/*footer*/
+.footer.red{
+	background-image: linear-gradient(
+		#c00707, 
+		#c00707), 
+	linear-gradient(
+		#dc0101, 
+		#dc0101);
+	background-blend-mode: normal, 
+		normal;
+}
+/*==================== 不忘初心牢记使命 end =====================
