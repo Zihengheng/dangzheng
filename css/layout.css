@@ -24,9 +24,10 @@ div.content-contaienr{
 .section{
 	min-width:1600px;
 	width:100%;
+	background-color: #f9fafc;
 }
 .section-title{
-	width: 262px;
+	width:700px;
 	height: 34px;
 	font-family: DFHeiW12-GB;
 	font-size: 36px;
@@ -49,6 +50,28 @@ td.date{
 	float:right;
 }
 /*通用结构部分 end */
+/* 底部内容 样式s*/
+.footer{width:100%;color:#fff;font-family:"Microsoft Yahei";line-height:22px;background-color:#fe751a;font-size: 12px;
+  min-width:1600px;
+  height:207px;
+}
+.foot-bot{
+	width:1400px;
+	margin:0 auto;
+}
+.footer a{color:#fff;font-family:"Microsoft Yahei";}
+.foot-bot .t{height:115px;padding-top:48px;border-bottom:1px solid #fff;}.foot-bot .t a{color:#fff;}
+.foot-bot .t>img{float:left;width:110px;}
+.foot-bot .t .mid{float:left;margin-left:20px;}
+.foot-bot .t .mid span{display:block;}
+.foot-bot .t .mid a+a{margin-left:24px;}
+.foot-bot .t .right{float:right;}
+.foot-bot .t .right img{height:32px;margin-left:17px;}
+.foot-bot .b{width:670px;padding-top:16px;}
+.foot-bot .b a{margin-left:5px;}
+.foot-bot .b a,.foot-bot .b span{color:#fff;white-space:nowrap;margin-right:5px;}
+.footer a:hover,.foot-top a:hover span{color:#fff;}
+/* 底部 样式end*/
 /*======================= 习近平思想学习 ========================*/
 /*=== header start ===*/
 .banner-learning{
@@ -140,6 +163,8 @@ div.input-box .input{
 	border:0;
 	height:37px;
 	width:980px;
+	padding-left: 51px;
+	color:#999999;
 }
 i.search-icon{
 	position:relative;
@@ -154,15 +179,25 @@ i.search-icon{
 #topic{
 	float:left;
 	border:0;
-	width:220px;
+	width:215px;
 	height:37px;
 	background-color: #fff;
 }
 #topic .caret{
 	margin-left:15px;
 }
-.imput-box ul.dropdown-menu{
-	width:220px;
+#topic-dropdown{
+	width:215px;
+}
+#topic-dropdown li a{
+	line-height:26px;
+}
+div.divider{
+	float:left;
+	width:1px;
+	height:33px;
+	background-color:#f0f0f1;
+	margin-top: 2px;
 }
 #search{
 	float:left;
@@ -243,7 +278,9 @@ div.speach-list-box{
 	width:600px;
 	float:left;
 	padding-top: 22px;
-	margin-right: 40px;
+}
+div.speach-list-box.left-box{
+	margin-right: 54px;
 }
 div.speach-list-box td.list{
 	width:488px;
@@ -253,13 +290,14 @@ div.speach-list-box td.list a, div.speach-list-box td.date {
 	font-size: 16px;
 	line-height: 33px;
 	letter-spacing: 1px;
-	color: #333333;
+	color: #00173e;
 }
 /*========= 重要讲话 section end =========*/
 
 /*========= 治国理政活动 section =========*/
 div.section-manage{
-	background: url("../images/");
+	/*background: url("../images/");*/
+	padding-bottom: 45px;
 }
 div.manage-content{
 	width: 1600px;
@@ -276,8 +314,128 @@ div.manage-content{
 		rgba(154, 152, 152, 0.4);
 	border: solid 1px #e5e8eb;
 	margin-top: 80px;
+	padding-left: 40px;
+	padding-right:40px;
+}
+ul#manage-nav-tabs{
+	width:100%;
+	padding-inline-start:0px;
+}
+ul#manage-nav-tabs li{
+	width: 111px;
+	height: 39px;
+	background-color: #ffffff;
+	border: solid 1px #e2e2e2;
+	margin-right:20px;
+	text-align: center;
+}
+ul#manage-nav-tabs li a{
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight:bold;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #666666;
+	text-decoration: none;
+	line-height: 39px;
+}
+ul#manage-nav-tabs li:hover,ul#manage-nav-tabs li.active {
+	background-color: #fe751a;
+}
+ul#manage-nav-tabs li:hover a, ul#manage-nav-tabs li.active a{
+	color:#ffffff;
+}
+div.manage-nav{
+	height:90px;
+	padding-top: 50px;
+}
+#manage-nav-content{
+	margin-top: 55px;
+}
+div.manage-list-box{
+	width: 727px;
+	height: 192px;
+	float:left;
+}
+div.manage-list-box.left-box{
+	margin-right: 63px;
+}
+div.manage-list-box a, div.manage-list-box{
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #00173e;
 }
 /*========= 治国理政活动 section end =========*/
 /*========= 思想解读 section =========*/
+div.section-interpretation{
+	background: url("../images/bg-section1.png") no-repeat center;
+	height:582px;
+}
+.section-interpretation .content-container{
+	padding-top:83px;
+}
+.interpretation-title{
+	color: #fe751a;
+}
+div.interpretation-content{
+	padding-top: 91px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+ul#interpretation-nav-tabs{
+	width:100%;
+	padding-inline-start:0px;
+}
+ul#interpretation-nav-tabs li{
+	width: 111px;
+	height: 39px;
+	background-color: #ffffff;
+	border: solid 1px #e2e2e2;
+	margin-right: 20px;
+	line-height: 33px;
+	text-align: center;
+}
+ul#interpretation-nav-tabs li a{
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight:bold;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color:#666666;
+	text-decoration: none;
+}
+ul#interpretation-nav-tabs li:hover, 
+ul#interpretation-nav-tabs li.active{
+	background-color: #fe751a;
+}
+ul#interpretation-nav-tabs li:hover a, 
+ul#interpretation-nav-tabs li.active a{
+	color:#fff;
+}
+div.interpretation-nav{
+	height:40px;
+}
+#interpretation-nav-content{
+	padding-top: 55px;
+	height:334px;
+}
+.interpretation-list-box{
+	width: 730px;
+	height: 182px;
+	float:left;
+	line-height: 33px;
+}
+.interpretation-list-box.left-box{
+	margin-right: 50px;
+}
+.interpretation-list-box, .interpretation-list-box a{
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #00173e;
+}
 /*========= 思想解读 section end  =========*/
-/*======================= 习近平思想学习 end ========================
+/*======================= 习近平思想学习 end ========================*/
+/*======================= 习近平思想学习 start ========================*/
