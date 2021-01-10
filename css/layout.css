@@ -1,3 +1,8 @@
+/*改变搜索框选中样式*/
+input:focus,textarea:focus {
+    outline: none;
+    border: 0;
+}
 /*通用结构部分*/
 div.content-contaienr{
 	width:1600px;
@@ -5,6 +10,7 @@ div.content-contaienr{
 }
 .header{
 	min-width:1600px;
+	width:100%;
 }
 .banner{
 	height:133px;
@@ -17,6 +23,7 @@ div.content-contaienr{
 }
 .section{
 	min-width:1600px;
+	width:100%;
 }
 .section-title{
 	width: 262px;
@@ -126,10 +133,23 @@ div.input-box{
 	background-color: #ffffff;
 	border: solid 1px #e7e7e8;
 	float:left;
+	z-index:1; 
 }
-.input{
+div.input-box .input{
 	float:left;
 	border:0;
+	height:37px;
+	width:980px;
+}
+i.search-icon{
+	position:relative;
+	z-index:4; 
+	left:54px;
+	top:8px;
+}
+.search-icon img{
+	width:19px;
+	height:20px;
 }
 #topic{
 	float:left;
@@ -140,6 +160,9 @@ div.input-box{
 }
 #topic .caret{
 	margin-left:15px;
+}
+.imput-box ul.dropdown-menu{
+	width:220px;
 }
 #search{
 	float:left;
@@ -238,5 +261,23 @@ div.speach-list-box td.list a, div.speach-list-box td.date {
 div.section-manage{
 	background: url("../images/");
 }
+div.manage-content{
+	width: 1600px;
+	height: 380px;
+	background-image: linear-gradient(
+		#f9fafc, 
+		#f9fafc), 
+	linear-gradient(
+		#960002, 
+		#960002);
+	background-blend-mode: normal, 
+		normal;
+	box-shadow: 0px 6px 7px 0px 
+		rgba(154, 152, 152, 0.4);
+	border: solid 1px #e5e8eb;
+	margin-top: 80px;
+}
 /*========= 治国理政活动 section end =========*/
+/*========= 思想解读 section =========*/
+/*========= 思想解读 section end  =========*/
 /*======================= 习近平思想学习 end ========================
