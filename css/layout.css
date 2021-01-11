@@ -1,4 +1,4 @@
-改变搜索框选中样式*/
+/*改变搜索框选中样式*/
 input:focus,textarea:focus {
     outline: none;
     border: 0;
@@ -79,14 +79,7 @@ td.date{
 }
 .menu-learning{
 	height: 60px;
-	background-image: linear-gradient(
-		#fe751a, 
-		#fe751a), 
-	linear-gradient(
-		#001c58, 
-		#001c58);
-	background-blend-mode: normal, 
-		normal;
+	background-color:#fe751a 
 }
 ul.learning-nav{
 	width:100%;
@@ -117,28 +110,14 @@ ul.learning-nav li:hover a, ul.learning-nav li.active a{
 div.search-section{
 	width:100%;
 	height:170px;
-	background-image: linear-gradient(
-		#f5f5f6, 
-		#f5f5f6), 
-	linear-gradient(
-		#960002, 
-		#960002);
-	background-blend-mode: normal, 
-		normal;
+	background-color:#f5f5f6; 
 	padding-top:30px;
 }
 div.search-bar{
 	margin: 0 auto;
 	width: 1600px;
 	height: 110px;
-	background-image: linear-gradient(
-		#f0f0f1, 
-		#f0f0f1), 
-	linear-gradient(
-		#ffffff, 
-		#ffffff);
-	background-blend-mode: normal, 
-		normal;
+	background-color: #f0f0f1;
 	border: solid 1px #e5e8eb;
 }
 form.input-form{
@@ -202,14 +181,7 @@ div.divider{
 	float:left;
 	width: 73px;
 	height: 41px;
-	background-image: linear-gradient(
-		#fe751a, 
-		#fe751a), 
-	linear-gradient(
-		#1c1e39, 
-		#1c1e39);
-	background-blend-mode: normal, 
-		normal;
+	background-color:#fe751a; 
 	color:white;
 }
 /*=== header end ===*/
@@ -301,14 +273,7 @@ div.section-manage{
 div.manage-content{
 	width: 1600px;
 	height: 380px;
-	background-image: linear-gradient(
-		#f9fafc, 
-		#f9fafc), 
-	linear-gradient(
-		#960002, 
-		#960002);
-	background-blend-mode: normal, 
-		normal;
+	background-color:#f9fafc; 
 	box-shadow: 0px 6px 7px 0px 
 		rgba(154, 152, 152, 0.4);
 	border: solid 1px #e5e8eb;
@@ -532,14 +497,7 @@ ul.vision-nav li:hover a,ul.vision-nav li.active a{
 	padding:40px 40px 40px 40px;
 	width: 1600px;
 	height: 380px;
-	background-image: linear-gradient(
-		#f9fafc, 
-		#f9fafc), 
-	linear-gradient(
-		#960002, 
-		#960002);
-	background-blend-mode: normal, 
-		normal;
+	background-color:#f9fafc;
 	box-shadow:3px 6px 7px 5px 
 		rgba(154, 152, 152, 0.4);
 	border: solid 1px #e5e8eb;
@@ -643,13 +601,250 @@ div.discussion-list-box.left-box{
 /*=== discussion section end ===*/
 /*footer*/
 .footer.red{
-	background-image: linear-gradient(
-		#c00707, 
-		#c00707), 
-	linear-gradient(
-		#dc0101, 
-		#dc0101);
-	background-blend-mode: normal, 
-		normal;
+	background-color:#c00707;  
 }
-/*==================== 不忘初心牢记使命 end =====================
+/*==================== 不忘初心牢记使命 end =====================*/
+
+/*==================== 保密知识库 start =====================*/
+/*=== header start ===*/
+.banner-confidential{
+	background: url("../images/bg-banner2.jpg") no-repeat center;
+}
+.menu-confidential{
+	width:100%;
+	height: 42px;
+	background-color: #c00707;
+}
+ul.confidential-nav{
+	width:100%;
+	padding-inline-start:0px;
+}
+ul.confidential-nav li{
+	width:16.6%;
+	text-align: center;
+	height:42px;
+	line-height: 42px;
+}
+ul.confidential-nav li a{
+	text-decoration: none;
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+ul.confidential-nav li:hover, ul.confidential-nav li.active{
+	background: url("../images/up-icon.png") no-repeat bottom;
+}
+ul.confidential-nav li:hover a, ul.confidential-nav li.active a{
+	color:#f5c212;
+}
+/*=== header end ===*/
+/*=== 保密动态 start ===*/
+.section-cnews{
+	padding-top: 80px;
+	height:569px;
+}
+div.cnews-box{
+	float:left;
+	width:712px;
+}
+div.cnews-box.left-box{
+	margin-right: 175px;
+}
+.cnews-title{
+	color:#c00707;
+}
+div.cnews-content{
+	height:357px;
+	padding-top: 86px;
+}
+div.cnews-subtitle{
+	width: 118px;
+	height: 38px;
+	background-color: #c00707;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight:bold;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	line-height:38px;
+	text-align: center;
+}
+div.cnews-box-list{
+	padding-top: 53px;
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #00173e;
+}
+div.cnews-box-list a{
+	color: #00173e;
+}
+/*=== 保密动态 end ===*/
+/*=== regu start ===*/
+.section-regulations{
+	padding-top: 126px;
+	background: url("../images/bg-section.png") no-repeat center top;
+	height:670px;
+	background-size: 100% 330px;
+	background-color:#f9fafc; 
+}
+.regulations-title{
+	color:#fff;
+}
+div.regulations-content{
+	width: 1600px;
+	height: 380px;
+	background-color:#f7f8fa; 
+	box-shadow: 3px 3px 3px 3px 
+		rgba(154, 152, 152, 0.4);
+	border: solid 1px #e5e8eb;
+	margin-top: 60px;
+	padding:40px;
+}
+div.regulations-box{
+	width:660px;
+	float:left;
+
+}
+div.regu-subtitle{
+	width: 118px;
+	height: 38px;
+	background-color: #c00707;
+	text-align: center;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight:bold;
+	line-height: 38px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	margin-bottom: 59px;
+}
+div.regulations-box, div.regulations-box a{
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #00173e;
+}
+div.regulations-box.left-box{
+	margin-right: 93px;
+}
+/*=== regu end ===*/
+/*=== hot-spot start ===*/
+.section-hot-spot{
+	height: 612px;
+	padding-top:69px;
+	background: url("../images/bg-section1.png") no-repeat center;
+}
+.hot-spot-title{
+	color:#c00707;
+}
+div.hp-img{
+	margin-top: 60px;
+	float:left;
+	width: 380px;
+	height: 380px;
+	background: url("../images/section-intro.png") no-repeat center;
+}
+div.hp-content{
+	float:left;
+	width:1185px;
+	padding-top: 120px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.hp-subtitle{
+	width: 118px;
+	height: 38px;
+	background-color: #c00707;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 38px;
+	letter-spacing: 1px;
+	color: #fff;
+	text-align: center;
+	margin-bottom:40px;
+}
+div.hp-list-box{
+	float:left;
+	width:530px;
+}
+div.hp-list-box, div.hp-list-box a{
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #00173e;
+}
+div.hp-list-box.left-box{
+	margin-right: 47px;
+}
+/*=== hot-spot end ===*/
+/*=== 保密技术， 保密宣传 ===*/
+.skill-title, .publicity-title{
+	color:#c00707;
+}
+.section-skills{
+	height:580px;
+	padding-top:72px;
+}
+.skill-content{
+	padding-top: 90px;
+}
+.tile-box{
+	width:500px;
+	float:left;
+	margin-right: 30px;
+}
+.skill-content .tile-subtitle{
+	width: 118px;
+	height: 38px;
+	background-color: #c00707;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 38px;
+	letter-spacing: 1px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.tile-list-box, .tile-list-box a{
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: #00173e;
+/*	padding:10px;*/
+}
+.section-publicity{
+	height: 540px;
+	background-color: #f4f4f6;
+	padding-top: 67px;
+}
+.publicity-content{
+	padding-top: 76px;
+}
+.publicity-content .tile-subtitle{
+	display: inline-block;
+	height: 38px;
+	background-color: #c00707;
+	padding:3px 10px 3px 10px;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	line-height: 38px;
+	letter-spacing: 1px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 65px;
+}
+/*=== 保密技术， 保密宣传 end ohhh===*/
+/*==================== 保密知识库 end =====================
