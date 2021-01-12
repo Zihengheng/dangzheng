@@ -4,9 +4,6 @@ input:focus,textarea:focus {
     border: 0;
 }
 /*通用结构部分*/
-.body{
-	width:2200px;
-}
 div.content-container{
 	width:1600px;
 	margin:0 auto;
@@ -54,10 +51,13 @@ td.list{
 td.list a{
 	text-decoration: none;
 }
+td.list a:hover{
+	color:orange;
+}
 td.date{
-	max-width:20%;
+	width:150px;
 	float:right;
-	margin-left:10%;
+	text-align: center;
 	overflow:hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -67,12 +67,14 @@ td.date{
 }
 /*tagcloud*/
 div.tagcloud{
+	overflow: hidden;
 	float:left;
 	width: 380px;
 	height: 380px;
 	left:10px;
 	top:62px;
 	background: url("../images/bg-tagcloud.png") no-repeat center;
+	background-size: 100% 380px;
 }
 a.green{
 	color:green;
@@ -610,7 +612,7 @@ ul#edu-nav-tabs li:hover a, ul#edu-nav-tabs li.active a{
 	margin-top:62px;
 }
 div.discussion-content{
-	width:1000px;
+	width:1100px;
 	float:left;
 	margin-left:38px;
 	padding-top:119px;
@@ -629,7 +631,7 @@ div.discussion-subtitle{
 	letter-spacing: 1px;
 }
 div.discussion-list-box{
-	width:470px;
+	width:500px;
 	float:left;
 	height: 182px;
 	line-height: 33px;
@@ -800,8 +802,9 @@ div.hp-img{
 }
 div.hp-content{
 	float:left;
-	width:1000px;
+	width:1100px;
 	padding-top: 120px;
+	padding-left: 23px;
 }
 .hp-subtitle{
 	width: 118px;
@@ -818,7 +821,7 @@ div.hp-content{
 }
 div.hp-list-box{
 	float:left;
-	width:430px;
+	width:500px;
 }
 div.hp-list-box, div.hp-list-box a{
 	font-family: MicrosoftYaHei;

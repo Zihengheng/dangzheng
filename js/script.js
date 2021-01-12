@@ -13,13 +13,13 @@ $(function(){
     //tagcould
      $('#v-discussion .tagcloud a[href="#t1"]').tab('show');
      $('#c-hotspot .tagcloud a[href="#ct1"]').tab('show');
+
     //dropdown menu 点击事件
     $("#topic-dropdown li a").click(function(){
         var newText = $(this).text();
         // console.log(newText);
         $("#topic span.hint").text(newText);
         $(".input").attr("placeholder", "按"+newText+"检索");
-        $(".input").attr("value", "按"+newText+"检索");
     });
 
     //锚点链接+页面滚动监听事件
@@ -78,4 +78,42 @@ $(function(){
       }
 
     });
+
+
+    //placeholder 兼容
+     placeholderFunc: function(){
+            // 如果不支持placeholder，用jQuery来完成
+            if (!isSupportPlaceholder()) {
+                // 遍历所有input对象, 除了密码框
+                $('input').not("input[type='password']").each(
+                    function () {
+                        var self = $(this);
+                        var val = self.attr("placeholder");
+                        input(self, val);
+                    }
+                );
+            }
+
+            // 判断浏览器是否支持placeholder属性
+            function isSupportPlaceholder() {
+                var input = document.createElement('input');
+                return 'placeholder' in input;
+            }
+
+            // jQuery替换placeholder的处理
+            function input(obj, val) {
+                var $input = obj;
+                var val = $.trim(val);
+                $input.attr({ "value": val,"style":"color:#999"});
+                $input.focus(function () {
+                    if ($.trim($input.val()) == val) {
+                        $(this).attr({ "value": "","style":"color:#333"});
+                    }
+                }).blur(function () {
+                    if ($input.val() == "") {
+                        $(this).attr({ "value": val,"style":"color:#999"});
+                    }
+                });
+            }
+        };
 });
