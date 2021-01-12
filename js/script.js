@@ -10,8 +10,9 @@ $(function(){
     //重要论述tab show
     $('#edu-nav-tabs a[href="#comment"]').tab('show');
 
-    //保密知识库
-
+    //tagcould
+     $('#v-discussion .tagcloud a[href="#t1"]').tab('show');
+     $('#c-hotspot .tagcloud a[href="#ct1"]').tab('show');
     //dropdown menu 点击事件
     $("#topic-dropdown li a").click(function(){
         var newText = $(this).text();

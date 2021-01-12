@@ -51,15 +51,40 @@ td.list{
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
+td.list a{
+	text-decoration: none;
+}
 td.date{
 	max-width:20%;
 	float:right;
 	margin-left:10%;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .list-content tr{
 	width:100%;
 }
+/*tagcloud*/
+div.tagcloud{
+	float:left;
+	width: 380px;
+	height: 380px;
+	left:10px;
+	top:62px;
+	background: url("../images/bg-tagcloud.png") no-repeat center;
+}
+a.green{
+	color:green;
+}
+a.red{
+	color:red;
+}
+a.blue{
+	color:blue;
+}
 /*通用结构部分 end */
+
 /* 底部内容 样式s*/
 .footer{width:100%;color:#fff;font-family:"Microsoft Yahei";line-height:22px;background-color:#fe751a;font-size: 12px;
   min-width:1600px;
@@ -585,7 +610,7 @@ ul#edu-nav-tabs li:hover a, ul#edu-nav-tabs li.active a{
 	margin-top:62px;
 }
 div.discussion-content{
-	width:1170px;
+	width:1000px;
 	float:left;
 	margin-left:38px;
 	padding-top:119px;
@@ -604,7 +629,7 @@ div.discussion-subtitle{
 	letter-spacing: 1px;
 }
 div.discussion-list-box{
-	width:562px;
+	width:470px;
 	float:left;
 	height: 182px;
 	line-height: 33px;
@@ -775,10 +800,8 @@ div.hp-img{
 }
 div.hp-content{
 	float:left;
-	width:1185px;
+	width:1000px;
 	padding-top: 120px;
-	padding-left: 35px;
-	padding-right: 35px;
 }
 .hp-subtitle{
 	width: 118px;
@@ -795,7 +818,7 @@ div.hp-content{
 }
 div.hp-list-box{
 	float:left;
-	width:530px;
+	width:430px;
 }
 div.hp-list-box, div.hp-list-box a{
 	font-family: MicrosoftYaHei;
