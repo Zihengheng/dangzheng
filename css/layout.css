@@ -4,7 +4,10 @@ input:focus,textarea:focus {
     border: 0;
 }
 /*通用结构部分*/
-div.content-contaienr{
+.body{
+	width:2200px;
+}
+div.content-container{
 	width:1600px;
 	margin:0 auto;
 }
@@ -32,22 +35,29 @@ div.content-contaienr{
 	font-family: DFHeiW12-GB;
 	font-size: 36px;
 	font-weight: bold;
-	font-stretch: normal;
 	line-height: 33px;
 	letter-spacing: 2px;
 	margin:0 auto;
 	text-align: center;
 }
-table.list-content{
+.list-content{
 	width:100%;
 }
+
 td.list{
+	max-width:65%;
 	float:left;
 	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 td.date{
-	width:90px;
+	max-width:20%;
 	float:right;
+	margin-left:10%;
+}
+.list-content tr{
+	width:100%;
 }
 /*通用结构部分 end */
 /* 底部内容 样式s*/
@@ -183,6 +193,9 @@ div.divider{
 	height: 41px;
 	background-color:#fe751a; 
 	color:white;
+}
+#search.red{
+	background-color: #d00707;
 }
 /*=== header end ===*/
 /*========= 重要讲话 section =========*/
